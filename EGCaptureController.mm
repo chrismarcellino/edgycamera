@@ -284,15 +284,21 @@
 {
     EGEdgyView *view = (EGEdgyView *)[self view];
     
-    // Prevent redundant button pressing
+    // Prevent redundant button pressing and ensure we capture the visible image
     pauseForCapture = YES;
-    [view setUserInteractionEnabled:NO];    
+    [view setUserInteractionEnabled:NO];
     
+#if TARGET_IPHONE_SIMULATOR
+    UIImage *image = [UIImage imageNamed:@"Default"];   // test code
+#else
     // Get the current image and add rotation metadata, rotating the raw pixels if necessary
     UIImage *image = [[view imageView] image];
     if (!image) {
+        pauseForCapture = NO;
+        [view setUserInteractionEnabled:YES];
         return;
     }
+#endif
     
     image = [UIImage imageWithCGImage:[image CGImage] scale:1.0 orientation:imageOrientation];
     IplImage *pixels = [image createIplImageWithNumberOfChannels:3];
@@ -305,8 +311,7 @@
     cvReleaseImage(&pixels);
         
     // Create the item to share
-    NSString *shareFormatString =
-    NSLocalizedString(@"Sent from Edgy for %@", nil);
+    NSString *shareFormatString = NSLocalizedString(@"Sent from Edgy for %@", nil);
     NSString *title = [[NSString alloc] initWithFormat:shareFormatString, [[UIDevice currentDevice] model]];
 	SHKItem *item = [SHKItem image:image title:title];
     
