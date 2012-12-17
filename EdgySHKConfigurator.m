@@ -322,7 +322,7 @@
  */
 
 - (Class)SHKActionSheetSubclass {    
-    return NSClassFromString(@"SHKActionSheet");
+    return NSClassFromString(@"EGSHKActionSheet");
 }
 
 - (Class)SHKShareMenuSubclass {    

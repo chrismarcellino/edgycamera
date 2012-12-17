@@ -43,6 +43,11 @@
 		BE1B760B167EB36400B7CB60 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
 		BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECED373167E9E6000F97959 /* ShareKit.bundle */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
+		BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
+		BE6DEA20167EC71F00F5BBD2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */; };
+		BE6DEA21167EC71F00F5BBD2 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */; };
+		BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
+		BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
 		BECED120167E8D0700F97959 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
 		BECED121167E8D0700F97959 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED103167E8D0700F97959 /* Localizable.strings */; };
@@ -449,6 +454,13 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
+		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
+		BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
+		BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy-Info.plist"; sourceTree = "<absolute>"; };
+		BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
@@ -800,6 +812,10 @@
 				BECED101167E8D0700F97959 /* colors_small.png */,
 				BECED102167E8D0700F97959 /* de.lproj */,
 				BECED105167E8D0700F97959 /* Default-568h@2x.png */,
+				BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */,
+				BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */,
+				BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */,
+				BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */,
 				BECED106167E8D0700F97959 /* Default.png */,
 				BECED107167E8D0700F97959 /* Default@2x.png */,
 				BECED108167E8D0700F97959 /* Edgy-Info.plist */,
@@ -840,6 +856,7 @@
 				2161366312CD7BFD006687D3 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -975,6 +992,8 @@
 				BEF56948167EA15E00178792 /* CvRectUtilities.hpp */,
 				BEF56949167EA15E00178792 /* EGCaptureController.h */,
 				BEF5694A167EA15E00178792 /* EGCaptureController.mm */,
+				BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */,
+				BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */,
 				BEF5694D167EA15E00178792 /* EGEdgyView.h */,
 				BEF5694E167EA15E00178792 /* EGEdgyView.m */,
 				BEF5694F167EA15E00178792 /* ImageOrientationAccelerometer.h */,
@@ -1371,6 +1390,10 @@
 				BECED132167E8D0700F97959 /* lightbulb_small.png in Resources */,
 				BECED133167E8D0700F97959 /* reload_small.png in Resources */,
 				BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */,
+				BE6DEA20167EC71F00F5BBD2 /* Default-Landscape.png in Resources */,
+				BE6DEA21167EC71F00F5BBD2 /* Default-Landscape@2x.png in Resources */,
+				BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */,
+				BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1460,6 +1483,7 @@
 				BEF56956167EA15E00178792 /* ImageOrientationAccelerometer.mm in Sources */,
 				BEF56959167EA16800178792 /* UIImage-OpenCVExtensions.mm in Sources */,
 				BE1B760A167EB05700B7CB60 /* EdgySHKConfigurator.m in Sources */,
+				BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1558,6 +1582,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1579,6 +1604,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",

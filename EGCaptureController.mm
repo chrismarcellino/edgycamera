@@ -15,6 +15,7 @@
 #import "UIImage-OpenCVExtensions.h"
 #import "Binarization.hpp"        // for static inlines
 #import "ImageOrientationAccelerometer.h"
+#import "EGSHKActionSheet.h"
 
 
 @interface EGCaptureController ()
@@ -32,14 +33,6 @@
 - (void)colorToggled:(id)sender;
 - (void)torchToggled:(id)sender;
 - (void)captureImage:(id)sender;
-
-@end
-
-@interface EGSHKActionSheet : SHKActionSheet {
-    void (^dismissHandler)(void);
-}
-
-- (void)setEGDismissHandler:(void (^)(void))handler;
 
 @end
 
@@ -83,8 +76,6 @@
         }
         
         [session addOutput:captureVideoDataOuput];
-        
-        [[[captureVideoDataOuput connections] objectAtIndex:0] setVideoMinFrameDuration:CMTimeMake(1, 10)];  // 10 fps max
 #endif
         [self setWantsFullScreenLayout:YES];
         [self setDefaultSettings];
@@ -219,6 +210,11 @@
     }
     [currentDevice unlockForConfiguration];
     
+    // Limit the frame rate
+    for (AVCaptureConnection *connection in [captureVideoDataOuput connections]) {
+        [connection setVideoMinFrameDuration:CMTimeMake(1, 10)];  // 10 fps max
+    }
+    
     // Ensure the image view is rotated properly
     BOOL front = [currentDevice position] == AVCaptureDevicePositionFront;
     CGAffineTransform transform = CGAffineTransformMakeRotation(front ? -M_PI_2 : M_PI_2);
@@ -316,7 +312,7 @@
 	SHKItem *item = [SHKItem image:image title:title];
     
 	// Get the ShareKit action sheet and display it. Use our subclass so we can know when it gets dismissed.
-	EGSHKActionSheet *actionSheet = (EGSHKActionSheet *)[EGSHKActionSheet actionSheetForItem:item];
+	EGSHKActionSheet *actionSheet = (EGSHKActionSheet *)[SHKActionSheet actionSheetForItem:item];
     [actionSheet setTitle:nil];
     [actionSheet setEGDismissHandler:^{
         pauseForCapture = NO;
@@ -457,23 +453,3 @@
 #endif
 
 @end
-
-
-@implementation EGSHKActionSheet
-
-- (void)dismissWithClickedButtonIndex:(NSInteger)buttonIndex animated:(BOOL)animated
-{
-    [super dismissWithClickedButtonIndex:buttonIndex animated:animated];
-    if (dismissHandler) {
-        dismissHandler();
-        dismissHandler = nil;
-    }
-}
-
-- (void)setEGDismissHandler:(void (^)(void))handler
-{
-    dismissHandler = [handler copy];
-}
-
-@end
-
