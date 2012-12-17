@@ -195,7 +195,9 @@
     }
     
     // Set the configuration
-    if ([session canSetSessionPreset:AVCaptureSessionPresetMedium]) {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [session canSetSessionPreset:AVCaptureSessionPreset640x480]) {
+        [session setSessionPreset:AVCaptureSessionPreset640x480];
+    } else if ([session canSetSessionPreset:AVCaptureSessionPresetMedium]) {
         [session setSessionPreset:AVCaptureSessionPresetMedium];
     }
     
