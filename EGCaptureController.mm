@@ -311,7 +311,7 @@
     cvReleaseImage(&pixels);
         
     // Create the item to share
-    NSString *shareFormatString = NSLocalizedString(@"Sent from Edgy for %@", nil);
+    NSString *shareFormatString = NSLocalizedString(@"Sent from Edgy for %@. Get it free on the App Store.", nil);
     NSString *title = [[NSString alloc] initWithFormat:shareFormatString, [[UIDevice currentDevice] model]];
 	SHKItem *item = [SHKItem image:image title:title];
     
