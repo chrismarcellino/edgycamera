@@ -535,7 +535,7 @@
 		BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy-Info.plist"; sourceTree = "<absolute>"; };
 		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
-		BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edgy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6DEA6A167ED37400F5BBD2 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6DEA6C167ED37500F5BBD2 /* Edgy copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy2-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy2-Info.plist"; sourceTree = "<absolute>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
@@ -734,7 +734,7 @@
 			children = (
 				215AB44112CEC6790047B13F /* libOpenCV.a */,
 				21C1C6301377B590006E5619 /* Edgy.app */,
-				BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */,
+				BE6DEA6A167ED37400F5BBD2 /* Edgy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1202,7 +1202,7 @@
 			);
 			name = EdgyFree;
 			productName = Edgy;
-			productReference = BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */;
+			productReference = BE6DEA6A167ED37400F5BBD2 /* Edgy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1821,7 +1821,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "Edgy copy";
+				PRODUCT_NAME = Edgy;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -1843,7 +1843,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "Edgy copy";
+				PRODUCT_NAME = Edgy;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
