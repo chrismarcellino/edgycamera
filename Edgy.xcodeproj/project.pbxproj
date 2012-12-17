@@ -1762,6 +1762,7 @@
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				PRODUCT_NAME = OpenCV;
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
