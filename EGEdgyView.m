@@ -64,8 +64,7 @@ static const CGFloat buttonAlpha = 0.8;
         [self setControlAlpha:0.0];
         
 #if FREE_VERSION
-        bannerView = [[ADBannerView alloc] init];
-        [bannerView setRequiredContentSizeIdentifiers:[NSSet setWithObject:ADBannerContentSizeIdentifierPortrait]];
+        bannerView = [[ADBannerView alloc] initWithAdType:ADAdTypeBanner];
         [bannerView setHidden:YES];
         [self addSubview:bannerView];
 #endif
@@ -101,8 +100,7 @@ static const CGFloat buttonAlpha = 0.8;
     [cannyThresholdSlider setFrame:sliderFrame];
 
 #if FREE_VERSION
-    CGRect bannerFrame;
-    bannerFrame.size = [ADBannerView sizeFromBannerContentSizeIdentifier:[bannerView currentContentSizeIdentifier]];
+    CGRect bannerFrame = [bannerView frame];
     bannerFrame.origin = CGPointMake(0.0, bounds.size.height - bannerFrame.size.height);
     [bannerView setFrame:bannerFrame];
 #endif

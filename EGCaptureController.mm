@@ -85,7 +85,6 @@
 
 - (void)dealloc
 {
-    dispatch_release(sampleProcessingQueue);
 #if TARGET_OS_EMBEDDED
     [session removeOutput:captureVideoDataOuput];
 #endif

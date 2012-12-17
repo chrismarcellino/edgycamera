@@ -22,7 +22,7 @@
 		<string>Icon-Small.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>org.chrismarcellino.edgy</string>
+	<string>org.chrismarcellino.edgyfree</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -44,10 +44,65 @@
 		BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECED373167E9E6000F97959 /* ShareKit.bundle */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
 		BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
-		BE6DEA20167EC71F00F5BBD2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */; };
-		BE6DEA21167EC71F00F5BBD2 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */; };
 		BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
 		BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
+		BE6DEA2C167ED37400F5BBD2 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
+		BE6DEA2D167ED37400F5BBD2 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
+		BE6DEA2E167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED103167E8D0700F97959 /* Localizable.strings */; };
+		BE6DEA2F167ED37400F5BBD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED105167E8D0700F97959 /* Default-568h@2x.png */; };
+		BE6DEA30167ED37400F5BBD2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED106167E8D0700F97959 /* Default.png */; };
+		BE6DEA31167ED37400F5BBD2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED107167E8D0700F97959 /* Default@2x.png */; };
+		BE6DEA32167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10A167E8D0700F97959 /* Localizable.strings */; };
+		BE6DEA33167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10D167E8D0700F97959 /* Localizable.strings */; };
+		BE6DEA34167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED110167E8D0700F97959 /* Localizable.strings */; };
+		BE6DEA35167ED37400F5BBD2 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED112167E8D0700F97959 /* Icon-50.png */; };
+		BE6DEA36167ED37400F5BBD2 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED113167E8D0700F97959 /* Icon-57.png */; };
+		BE6DEA37167ED37400F5BBD2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED114167E8D0700F97959 /* Icon-72.png */; };
+		BE6DEA38167ED37400F5BBD2 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED115167E8D0700F97959 /* Icon-114.png */; };
+		BE6DEA39167ED37400F5BBD2 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED116167E8D0700F97959 /* Icon-512.png */; };
+		BE6DEA3A167ED37400F5BBD2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED117167E8D0700F97959 /* Icon-Small.png */; };
+		BE6DEA3B167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED119167E8D0700F97959 /* Localizable.strings */; };
+		BE6DEA3C167ED37400F5BBD2 /* legal.txt in Resources */ = {isa = PBXBuildFile; fileRef = BECED11B167E8D0700F97959 /* legal.txt */; };
+		BE6DEA3D167ED37400F5BBD2 /* lightbulb_small_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */; };
+		BE6DEA3E167ED37400F5BBD2 /* lightbulb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11D167E8D0700F97959 /* lightbulb_small.png */; };
+		BE6DEA3F167ED37400F5BBD2 /* reload_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11E167E8D0700F97959 /* reload_small.png */; };
+		BE6DEA40167ED37400F5BBD2 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECED373167E9E6000F97959 /* ShareKit.bundle */; };
+		BE6DEA41167ED37400F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
+		BE6DEA42167ED37400F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
+		BE6DEA44167ED37400F5BBD2 /* Edgy-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4B112DA18FD0017E026 /* Edgy-main.m */; };
+		BE6DEA45167ED37400F5BBD2 /* Binarization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56944167EA15E00178792 /* Binarization.cpp */; };
+		BE6DEA46167ED37400F5BBD2 /* Bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56946167EA15E00178792 /* Bvh.cpp */; };
+		BE6DEA47167ED37400F5BBD2 /* EGCaptureController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694A167EA15E00178792 /* EGCaptureController.mm */; };
+		BE6DEA48167ED37400F5BBD2 /* EGEdgyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694C167EA15E00178792 /* EGEdgyAppDelegate.m */; };
+		BE6DEA49167ED37400F5BBD2 /* EGEdgyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694E167EA15E00178792 /* EGEdgyView.m */; };
+		BE6DEA4A167ED37400F5BBD2 /* ImageOrientationAccelerometer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF56950167EA15E00178792 /* ImageOrientationAccelerometer.mm */; };
+		BE6DEA4B167ED37400F5BBD2 /* UIImage-OpenCVExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF56958167EA16800178792 /* UIImage-OpenCVExtensions.mm */; };
+		BE6DEA4C167ED37400F5BBD2 /* EdgySHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */; };
+		BE6DEA4D167ED37400F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
+		BE6DEA4F167ED37400F5BBD2 /* libOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 215AB44112CEC6790047B13F /* libOpenCV.a */; };
+		BE6DEA50167ED37400F5BBD2 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
+		BE6DEA51167ED37400F5BBD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		BE6DEA52167ED37400F5BBD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		BE6DEA53167ED37400F5BBD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		BE6DEA54167ED37400F5BBD2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96D7D12D1733E002E1DC6 /* CoreMedia.framework */; };
+		BE6DEA55167ED37400F5BBD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96E6812D18157002E1DC6 /* QuartzCore.framework */; };
+		BE6DEA56167ED37400F5BBD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96D9C12D1734F002E1DC6 /* AVFoundation.framework */; };
+		BE6DEA57167ED37400F5BBD2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96DCA12D1736A002E1DC6 /* CoreVideo.framework */; };
+		BE6DEA58167ED37400F5BBD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215AB59712CECC190047B13F /* Accelerate.framework */; };
+		BE6DEA59167ED37400F5BBD2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210BBBE812DAEE920017E026 /* MessageUI.framework */; };
+		BE6DEA5A167ED37400F5BBD2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210BBC5612DAF01A0017E026 /* MobileCoreServices.framework */; };
+		BE6DEA5B167ED37400F5BBD2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161362512CD78BB006687D3 /* libz.dylib */; };
+		BE6DEA5C167ED37400F5BBD2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1B5BB12DD9FBD00D0604B /* Security.framework */; };
+		BE6DEA5D167ED37400F5BBD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1B5CB12DD9FE400D0604B /* SystemConfiguration.framework */; };
+		BE6DEA5E167ED37400F5BBD2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1C6331377B6CF006E5619 /* iAd.framework */; };
+		BE6DEA5F167ED37400F5BBD2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695A167EA23500178792 /* CoreLocation.framework */; };
+		BE6DEA60167ED37400F5BBD2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
+		BE6DEA61167ED37400F5BBD2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695C167EA23F00178792 /* CFNetwork.framework */; };
+		BE6DEA62167ED37400F5BBD2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695E167EA24B00178792 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BE6DEA63167ED37400F5BBD2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56960167EA27000178792 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BE6DEA64167ED37400F5BBD2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56962167EA2A400178792 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BE6DEA65167ED37400F5BBD2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56964167EA2AA00178792 /* Accounts.framework */; };
+		BE6DEA66167ED37400F5BBD2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56966167EA2B100178792 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
 		BECED120167E8D0700F97959 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
 		BECED121167E8D0700F97959 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED103167E8D0700F97959 /* Localizable.strings */; };
@@ -157,6 +212,27 @@
 
 /* Begin PBXContainerItemProxy section */
 		21C1C6001377B590006E5619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215AB44012CEC6790047B13F;
+			remoteInfo = "OpenCV-iPhone";
+		};
+		BE6DEA26167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
+			remoteInfo = "Static Library";
+		};
+		BE6DEA28167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
+			remoteInfo = "Resource Bundle";
+		};
+		BE6DEA2A167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
@@ -457,10 +533,10 @@
 		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
 		BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
 		BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy-Info.plist"; sourceTree = "<absolute>"; };
-		BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
-		BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
 		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edgy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6DEA6C167ED37500F5BBD2 /* Edgy copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy2-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy2-Info.plist"; sourceTree = "<absolute>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
@@ -619,6 +695,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE6DEA4E167ED37400F5BBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6DEA4F167ED37400F5BBD2 /* libOpenCV.a in Frameworks */,
+				BE6DEA50167ED37400F5BBD2 /* libShareKit.a in Frameworks */,
+				BE6DEA51167ED37400F5BBD2 /* Foundation.framework in Frameworks */,
+				BE6DEA52167ED37400F5BBD2 /* CoreGraphics.framework in Frameworks */,
+				BE6DEA53167ED37400F5BBD2 /* UIKit.framework in Frameworks */,
+				BE6DEA54167ED37400F5BBD2 /* CoreMedia.framework in Frameworks */,
+				BE6DEA55167ED37400F5BBD2 /* QuartzCore.framework in Frameworks */,
+				BE6DEA56167ED37400F5BBD2 /* AVFoundation.framework in Frameworks */,
+				BE6DEA57167ED37400F5BBD2 /* CoreVideo.framework in Frameworks */,
+				BE6DEA58167ED37400F5BBD2 /* Accelerate.framework in Frameworks */,
+				BE6DEA59167ED37400F5BBD2 /* MessageUI.framework in Frameworks */,
+				BE6DEA5A167ED37400F5BBD2 /* MobileCoreServices.framework in Frameworks */,
+				BE6DEA5B167ED37400F5BBD2 /* libz.dylib in Frameworks */,
+				BE6DEA5C167ED37400F5BBD2 /* Security.framework in Frameworks */,
+				BE6DEA5D167ED37400F5BBD2 /* SystemConfiguration.framework in Frameworks */,
+				BE6DEA5E167ED37400F5BBD2 /* iAd.framework in Frameworks */,
+				BE6DEA5F167ED37400F5BBD2 /* CoreLocation.framework in Frameworks */,
+				BE6DEA60167ED37400F5BBD2 /* libsqlite3.dylib in Frameworks */,
+				BE6DEA61167ED37400F5BBD2 /* CFNetwork.framework in Frameworks */,
+				BE6DEA62167ED37400F5BBD2 /* Twitter.framework in Frameworks */,
+				BE6DEA63167ED37400F5BBD2 /* CoreFoundation.framework in Frameworks */,
+				BE6DEA64167ED37400F5BBD2 /* AdSupport.framework in Frameworks */,
+				BE6DEA65167ED37400F5BBD2 /* Accounts.framework in Frameworks */,
+				BE6DEA66167ED37400F5BBD2 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -627,6 +734,7 @@
 			children = (
 				215AB44112CEC6790047B13F /* libOpenCV.a */,
 				21C1C6301377B590006E5619 /* Edgy.app */,
+				BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -812,8 +920,6 @@
 				BECED101167E8D0700F97959 /* colors_small.png */,
 				BECED102167E8D0700F97959 /* de.lproj */,
 				BECED105167E8D0700F97959 /* Default-568h@2x.png */,
-				BE6DEA1C167EC71F00F5BBD2 /* Default-Landscape.png */,
-				BE6DEA1D167EC71F00F5BBD2 /* Default-Landscape@2x.png */,
 				BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */,
 				BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */,
 				BECED106167E8D0700F97959 /* Default.png */,
@@ -857,6 +963,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */,
+				BE6DEA6C167ED37500F5BBD2 /* Edgy copy2-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1078,6 +1185,26 @@
 			productReference = 21C1C6301377B590006E5619 /* Edgy.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BE6DEA24167ED37400F5BBD2 /* EdgyFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6DEA67167ED37400F5BBD2 /* Build configuration list for PBXNativeTarget "EdgyFree" */;
+			buildPhases = (
+				BE6DEA2B167ED37400F5BBD2 /* Resources */,
+				BE6DEA43167ED37400F5BBD2 /* Sources */,
+				BE6DEA4E167ED37400F5BBD2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6DEA25167ED37400F5BBD2 /* PBXTargetDependency */,
+				BE6DEA27167ED37400F5BBD2 /* PBXTargetDependency */,
+				BE6DEA29167ED37400F5BBD2 /* PBXTargetDependency */,
+			);
+			name = EdgyFree;
+			productName = Edgy;
+			productReference = BE6DEA6A167ED37400F5BBD2 /* Edgy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1118,6 +1245,7 @@
 			projectRoot = "";
 			targets = (
 				21C1C5FE1377B590006E5619 /* Edgy */,
+				BE6DEA24167ED37400F5BBD2 /* EdgyFree */,
 				215AB44012CEC6790047B13F /* OpenCV */,
 			);
 		};
@@ -1390,10 +1518,38 @@
 				BECED132167E8D0700F97959 /* lightbulb_small.png in Resources */,
 				BECED133167E8D0700F97959 /* reload_small.png in Resources */,
 				BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */,
-				BE6DEA20167EC71F00F5BBD2 /* Default-Landscape.png in Resources */,
-				BE6DEA21167EC71F00F5BBD2 /* Default-Landscape@2x.png in Resources */,
 				BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */,
 				BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6DEA2B167ED37400F5BBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6DEA2C167ED37400F5BBD2 /* camera_dslr_small.png in Resources */,
+				BE6DEA2D167ED37400F5BBD2 /* colors_small.png in Resources */,
+				BE6DEA2E167ED37400F5BBD2 /* Localizable.strings in Resources */,
+				BE6DEA2F167ED37400F5BBD2 /* Default-568h@2x.png in Resources */,
+				BE6DEA30167ED37400F5BBD2 /* Default.png in Resources */,
+				BE6DEA31167ED37400F5BBD2 /* Default@2x.png in Resources */,
+				BE6DEA32167ED37400F5BBD2 /* Localizable.strings in Resources */,
+				BE6DEA33167ED37400F5BBD2 /* Localizable.strings in Resources */,
+				BE6DEA34167ED37400F5BBD2 /* Localizable.strings in Resources */,
+				BE6DEA35167ED37400F5BBD2 /* Icon-50.png in Resources */,
+				BE6DEA36167ED37400F5BBD2 /* Icon-57.png in Resources */,
+				BE6DEA37167ED37400F5BBD2 /* Icon-72.png in Resources */,
+				BE6DEA38167ED37400F5BBD2 /* Icon-114.png in Resources */,
+				BE6DEA39167ED37400F5BBD2 /* Icon-512.png in Resources */,
+				BE6DEA3A167ED37400F5BBD2 /* Icon-Small.png in Resources */,
+				BE6DEA3B167ED37400F5BBD2 /* Localizable.strings in Resources */,
+				BE6DEA3C167ED37400F5BBD2 /* legal.txt in Resources */,
+				BE6DEA3D167ED37400F5BBD2 /* lightbulb_small_selected.png in Resources */,
+				BE6DEA3E167ED37400F5BBD2 /* lightbulb_small.png in Resources */,
+				BE6DEA3F167ED37400F5BBD2 /* reload_small.png in Resources */,
+				BE6DEA40167ED37400F5BBD2 /* ShareKit.bundle in Resources */,
+				BE6DEA41167ED37400F5BBD2 /* Default-Portrait.png in Resources */,
+				BE6DEA42167ED37400F5BBD2 /* Default-Portrait@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,6 +1643,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE6DEA43167ED37400F5BBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6DEA44167ED37400F5BBD2 /* Edgy-main.m in Sources */,
+				BE6DEA45167ED37400F5BBD2 /* Binarization.cpp in Sources */,
+				BE6DEA46167ED37400F5BBD2 /* Bvh.cpp in Sources */,
+				BE6DEA47167ED37400F5BBD2 /* EGCaptureController.mm in Sources */,
+				BE6DEA48167ED37400F5BBD2 /* EGEdgyAppDelegate.m in Sources */,
+				BE6DEA49167ED37400F5BBD2 /* EGEdgyView.m in Sources */,
+				BE6DEA4A167ED37400F5BBD2 /* ImageOrientationAccelerometer.mm in Sources */,
+				BE6DEA4B167ED37400F5BBD2 /* UIImage-OpenCVExtensions.mm in Sources */,
+				BE6DEA4C167ED37400F5BBD2 /* EdgySHKConfigurator.m in Sources */,
+				BE6DEA4D167ED37400F5BBD2 /* EGSHKActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1494,6 +1667,21 @@
 			isa = PBXTargetDependency;
 			target = 215AB44012CEC6790047B13F /* OpenCV */;
 			targetProxy = 21C1C6001377B590006E5619 /* PBXContainerItemProxy */;
+		};
+		BE6DEA25167ED37400F5BBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = BE6DEA26167ED37400F5BBD2 /* PBXContainerItemProxy */;
+		};
+		BE6DEA27167ED37400F5BBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Resource Bundle";
+			targetProxy = BE6DEA28167ED37400F5BBD2 /* PBXContainerItemProxy */;
+		};
+		BE6DEA29167ED37400F5BBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215AB44012CEC6790047B13F /* OpenCV */;
+			targetProxy = BE6DEA2A167ED37400F5BBD2 /* PBXContainerItemProxy */;
 		};
 		BEF5693F167EA04E00178792 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1582,7 +1770,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=0";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1604,13 +1792,57 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=0";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = Edgy;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wno-unused-value",
+					"-Wno-overloaded-virtual",
+				);
+			};
+			name = Release;
+		};
+		BE6DEA68167ED37400F5BBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
+				INFOPLIST_FILE = "Edgy copy2-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Edgy copy";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wno-unused-value",
+					"-Wno-overloaded-virtual",
+				);
+			};
+			name = Debug;
+		};
+		BE6DEA69167ED37400F5BBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
+				INFOPLIST_FILE = "Edgy copy2-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Edgy copy";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -1633,7 +1865,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1654,7 +1886,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1682,6 +1914,15 @@
 			buildConfigurations = (
 				21C1C62E1377B590006E5619 /* Debug */,
 				21C1C62F1377B590006E5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6DEA67167ED37400F5BBD2 /* Build configuration list for PBXNativeTarget "EdgyFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6DEA68167ED37400F5BBD2 /* Debug */,
+				BE6DEA69167ED37400F5BBD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
