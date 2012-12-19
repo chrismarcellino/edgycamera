@@ -287,7 +287,7 @@
     EGEdgyView *view = (EGEdgyView *)[self view];
     
     // Prevent redundant button pressing and ensure we capture the visible image
-    pauseForCapture = YES;
+    pauseForCapture = YES;  // MUST COME FIRST
     [view setUserInteractionEnabled:NO];
     
 #if TARGET_IPHONE_SIMULATOR
@@ -313,7 +313,7 @@
     cvReleaseImage(&pixels);
         
     // Create the item to share
-    NSString *shareFormatString = NSLocalizedString(@"Sent from Edgy for %@. Get it free on the App Store.", nil);
+    NSString *shareFormatString = NSLocalizedString(@"Photo from Edgy Camera, free on the App Store", nil);
     NSString *title = [[NSString alloc] initWithFormat:shareFormatString, [[UIDevice currentDevice] model]];
 	SHKItem *item = [SHKItem image:image title:title];
     
@@ -323,8 +323,11 @@
     [actionSheet setEGDismissHandler:^{
         pauseForCapture = NO;
         [view setUserInteractionEnabled:YES];
+        [view restartFadeTimer];
     }];
-    [actionSheet performSelector:@selector(showInView:) withObject:view afterDelay:0.35];
+    
+    [(EGEdgyView *)[self view] clearFadeTimer];
+    [actionSheet showFromRect:[[view captureButton] frame] inView:view animated:YES];
 }
 
 - (void)thresholdChanged:(id)sender

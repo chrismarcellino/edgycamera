@@ -39,7 +39,7 @@
 }
 
 - (NSString*)appURL {
-	return @"http://edgy.levelview.com/";
+	return @"http://itunes.com/apps/edgycamerafree";
 }
 
 /*

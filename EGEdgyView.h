@@ -33,4 +33,8 @@
 
 - (void)setButtonImageTransform:(CGAffineTransform)transform animated:(BOOL)animated;
 
+- (void)clearFadeTimer;
+- (void)fadeTimerFired;
+- (void)restartFadeTimer;
+
 @end

@@ -14,10 +14,6 @@ static const CGFloat buttonAlpha = 0.8;
 
 - (void)setControlAlpha:(CGFloat)alpha;
 
-- (void)clearFadeTimer;
-- (void)fadeTimerFired;
-- (void)restartFadeTimer;
-
 @end
 
 
