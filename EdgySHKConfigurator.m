@@ -39,7 +39,7 @@
 }
 
 - (NSString*)appURL {
-	return @"http://itunes.com/apps/edgycamerafree";
+	return @"http://edgy.levelview.com";
 }
 
 /*
@@ -139,11 +139,11 @@
 }
 
 - (NSString*)twitterConsumerKey {
-	return @"Qpmnc2g38KhWCDhaQaFPPQ";
+	return @"riRRCZtNUBObyyFyADh8Mw";
 }
 
 - (NSString*)twitterSecret {
-	return @"qpmcWNk7tnakhLFU8R3u3RVK8G7exL9W6oTrmbZ2qA";
+	return @"qTDJg8uBRKJ6sSKbvD17Xwbqe06iLf74nSVmwNeMc";
 }
 // You need to set this if using OAuth, see note above (xAuth users can skip it)
 - (NSString*)twitterCallbackUrl {
@@ -300,7 +300,7 @@
     return [NSArray arrayWithObjects:@"SHKTwitter",@"SHKFacebook", @"SHKReadItLater", nil];
 }
 - (NSArray*)defaultFavoriteImageSharers {
-    return [NSArray arrayWithObjects:@"SHKMail",@"SHKFacebook", @"SHKCopy", nil];
+    return [NSArray arrayWithObjects:@"SHKMail",@"SHKFacebook", @"SHKTwitter", nil];
 }
 - (NSArray*)defaultFavoriteTextSharers {
     return [NSArray arrayWithObjects:@"SHKMail",@"SHKTwitter",@"SHKFacebook", nil];

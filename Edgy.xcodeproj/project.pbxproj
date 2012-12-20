@@ -528,6 +528,7 @@
 		21C1C6331377B6CF006E5619 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		21FA802612CD6D1600D11B6D /* config_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = ThirdParty/config_auto.h; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdgyFree-Info.plist"; sourceTree = "<group>"; };
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
 		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
@@ -925,6 +926,7 @@
 				BECED106167E8D0700F97959 /* Default.png */,
 				BECED107167E8D0700F97959 /* Default@2x.png */,
 				BECED108167E8D0700F97959 /* Edgy-Info.plist */,
+				BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */,
 				BECED109167E8D0700F97959 /* en.lproj */,
 				BECED10C167E8D0700F97959 /* es.lproj */,
 				BECED10F167E8D0700F97959 /* fr.lproj */,
@@ -1816,7 +1818,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
-				INFOPLIST_FILE = "Edgy copy2-Info.plist";
+				INFOPLIST_FILE = "Resources/EdgyFree-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1838,7 +1840,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
-				INFOPLIST_FILE = "Edgy copy2-Info.plist";
+				INFOPLIST_FILE = "Resources/EdgyFree-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
