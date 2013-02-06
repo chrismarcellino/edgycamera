@@ -533,11 +533,9 @@
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
 		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
 		BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
-		BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy-Info.plist"; sourceTree = "<absolute>"; };
 		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		BE6DEA6A167ED37400F5BBD2 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6DEA6C167ED37500F5BBD2 /* Edgy copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Edgy copy2-Info.plist"; path = "/Users/crm90/Documents/Edgy for iOS/Source/Edgy copy2-Info.plist"; sourceTree = "<absolute>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
@@ -964,8 +962,6 @@
 				2161366312CD7BFD006687D3 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				BE6DEA1B167EC5AD00F5BBD2 /* Edgy copy-Info.plist */,
-				BE6DEA6C167ED37500F5BBD2 /* Edgy copy2-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
