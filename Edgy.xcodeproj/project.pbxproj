@@ -43,66 +43,10 @@
 		BE1B760B167EB36400B7CB60 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
 		BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECED373167E9E6000F97959 /* ShareKit.bundle */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
+		BE312E441A5EF83300B87054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE312E431A5EF83300B87054 /* CoreMotion.framework */; };
 		BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
 		BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
 		BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
-		BE6DEA2C167ED37400F5BBD2 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
-		BE6DEA2D167ED37400F5BBD2 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
-		BE6DEA2E167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED103167E8D0700F97959 /* Localizable.strings */; };
-		BE6DEA2F167ED37400F5BBD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED105167E8D0700F97959 /* Default-568h@2x.png */; };
-		BE6DEA30167ED37400F5BBD2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED106167E8D0700F97959 /* Default.png */; };
-		BE6DEA31167ED37400F5BBD2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED107167E8D0700F97959 /* Default@2x.png */; };
-		BE6DEA32167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10A167E8D0700F97959 /* Localizable.strings */; };
-		BE6DEA33167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10D167E8D0700F97959 /* Localizable.strings */; };
-		BE6DEA34167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED110167E8D0700F97959 /* Localizable.strings */; };
-		BE6DEA35167ED37400F5BBD2 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED112167E8D0700F97959 /* Icon-50.png */; };
-		BE6DEA36167ED37400F5BBD2 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED113167E8D0700F97959 /* Icon-57.png */; };
-		BE6DEA37167ED37400F5BBD2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED114167E8D0700F97959 /* Icon-72.png */; };
-		BE6DEA38167ED37400F5BBD2 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED115167E8D0700F97959 /* Icon-114.png */; };
-		BE6DEA39167ED37400F5BBD2 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED116167E8D0700F97959 /* Icon-512.png */; };
-		BE6DEA3A167ED37400F5BBD2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED117167E8D0700F97959 /* Icon-Small.png */; };
-		BE6DEA3B167ED37400F5BBD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED119167E8D0700F97959 /* Localizable.strings */; };
-		BE6DEA3C167ED37400F5BBD2 /* legal.txt in Resources */ = {isa = PBXBuildFile; fileRef = BECED11B167E8D0700F97959 /* legal.txt */; };
-		BE6DEA3D167ED37400F5BBD2 /* lightbulb_small_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */; };
-		BE6DEA3E167ED37400F5BBD2 /* lightbulb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11D167E8D0700F97959 /* lightbulb_small.png */; };
-		BE6DEA3F167ED37400F5BBD2 /* reload_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11E167E8D0700F97959 /* reload_small.png */; };
-		BE6DEA40167ED37400F5BBD2 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECED373167E9E6000F97959 /* ShareKit.bundle */; };
-		BE6DEA41167ED37400F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
-		BE6DEA42167ED37400F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
-		BE6DEA44167ED37400F5BBD2 /* Edgy-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4B112DA18FD0017E026 /* Edgy-main.m */; };
-		BE6DEA45167ED37400F5BBD2 /* Binarization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56944167EA15E00178792 /* Binarization.cpp */; };
-		BE6DEA46167ED37400F5BBD2 /* Bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56946167EA15E00178792 /* Bvh.cpp */; };
-		BE6DEA47167ED37400F5BBD2 /* EGCaptureController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694A167EA15E00178792 /* EGCaptureController.mm */; };
-		BE6DEA48167ED37400F5BBD2 /* EGEdgyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694C167EA15E00178792 /* EGEdgyAppDelegate.m */; };
-		BE6DEA49167ED37400F5BBD2 /* EGEdgyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694E167EA15E00178792 /* EGEdgyView.m */; };
-		BE6DEA4A167ED37400F5BBD2 /* ImageOrientationAccelerometer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF56950167EA15E00178792 /* ImageOrientationAccelerometer.mm */; };
-		BE6DEA4B167ED37400F5BBD2 /* UIImage-OpenCVExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF56958167EA16800178792 /* UIImage-OpenCVExtensions.mm */; };
-		BE6DEA4C167ED37400F5BBD2 /* EdgySHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */; };
-		BE6DEA4D167ED37400F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
-		BE6DEA4F167ED37400F5BBD2 /* libOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 215AB44112CEC6790047B13F /* libOpenCV.a */; };
-		BE6DEA50167ED37400F5BBD2 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
-		BE6DEA51167ED37400F5BBD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		BE6DEA52167ED37400F5BBD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		BE6DEA53167ED37400F5BBD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE6DEA54167ED37400F5BBD2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96D7D12D1733E002E1DC6 /* CoreMedia.framework */; };
-		BE6DEA55167ED37400F5BBD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96E6812D18157002E1DC6 /* QuartzCore.framework */; };
-		BE6DEA56167ED37400F5BBD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96D9C12D1734F002E1DC6 /* AVFoundation.framework */; };
-		BE6DEA57167ED37400F5BBD2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A96DCA12D1736A002E1DC6 /* CoreVideo.framework */; };
-		BE6DEA58167ED37400F5BBD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215AB59712CECC190047B13F /* Accelerate.framework */; };
-		BE6DEA59167ED37400F5BBD2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210BBBE812DAEE920017E026 /* MessageUI.framework */; };
-		BE6DEA5A167ED37400F5BBD2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210BBC5612DAF01A0017E026 /* MobileCoreServices.framework */; };
-		BE6DEA5B167ED37400F5BBD2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161362512CD78BB006687D3 /* libz.dylib */; };
-		BE6DEA5C167ED37400F5BBD2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1B5BB12DD9FBD00D0604B /* Security.framework */; };
-		BE6DEA5D167ED37400F5BBD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1B5CB12DD9FE400D0604B /* SystemConfiguration.framework */; };
-		BE6DEA5E167ED37400F5BBD2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1C6331377B6CF006E5619 /* iAd.framework */; };
-		BE6DEA5F167ED37400F5BBD2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695A167EA23500178792 /* CoreLocation.framework */; };
-		BE6DEA60167ED37400F5BBD2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
-		BE6DEA61167ED37400F5BBD2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695C167EA23F00178792 /* CFNetwork.framework */; };
-		BE6DEA62167ED37400F5BBD2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF5695E167EA24B00178792 /* Twitter.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE6DEA63167ED37400F5BBD2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56960167EA27000178792 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BE6DEA64167ED37400F5BBD2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56962167EA2A400178792 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		BE6DEA65167ED37400F5BBD2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56964167EA2AA00178792 /* Accounts.framework */; };
-		BE6DEA66167ED37400F5BBD2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF56966167EA2B100178792 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
 		BECED120167E8D0700F97959 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
 		BECED121167E8D0700F97959 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED103167E8D0700F97959 /* Localizable.strings */; };
@@ -218,33 +162,145 @@
 			remoteGlobalIDString = 215AB44012CEC6790047B13F;
 			remoteInfo = "OpenCV-iPhone";
 		};
-		BE6DEA26167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
-			remoteInfo = "Static Library";
-		};
-		BE6DEA28167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
-			remoteInfo = "Resource Bundle";
-		};
-		BE6DEA2A167ED37400F5BBD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 215AB44012CEC6790047B13F;
-			remoteInfo = "OpenCV-iPhone";
-		};
-		BECED36E167E9E6000F97959 /* PBXContainerItemProxy */ = {
+		BE312E741A5EF83300B87054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = "Demo App";
+			remoteGlobalIDString = 4503EBC0169104470057294C;
+			remoteInfo = "Google Plus";
+		};
+		BE312E761A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 949BCB8C172A993000D706D4;
+			remoteInfo = Buffer;
+		};
+		BE312E781A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A49DBC316BC193E004B7E78;
+			remoteInfo = Readability;
+		};
+		BE312E7A1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A203D0A16EB7DA200421995;
+			remoteInfo = Hatena;
+		};
+		BE312E7C1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AAE8CA516EB960500429C51;
+			remoteInfo = Plurk;
+		};
+		BE312E7E1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DE334C2116F3339300FF692B;
+			remoteInfo = Dropbox;
+		};
+		BE312E801A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AECF322171D5194000722FA;
+			remoteInfo = YouTube;
+		};
+		BE312E821A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AECF32C171D51C3000722FA;
+			remoteInfo = "YouTube SDK";
+		};
+		BE312E841A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4E465A173E2B2900CCEE80;
+			remoteInfo = Pocket;
+		};
+		BE312E861A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4E4663173E2C2500CCEE80;
+			remoteInfo = "Pocket SDK";
+		};
+		BE312E881A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A8C03BE1848CDEE008E4C0A;
+			remoteInfo = "Static Library Tests";
+		};
+		BE312E8A1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ADB643918C5BF3B00B5AF7F;
+			remoteInfo = PKMultipartInputStream;
+		};
+		BE312E8C1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4932D60E18DCBD840075FEE8;
+			remoteInfo = Imgur;
+		};
+		BE312E8E1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC2195F318EA885C003DF6BD;
+			remoteInfo = OneNote;
+		};
+		BE312E901A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A70B2AF191C7E950070C5FB;
+			remoteInfo = Pinterest;
+		};
+		BE312E921A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AB8A568192505B200EC73A2;
+			remoteInfo = SDWebImage;
+		};
+		BE312E941A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4823E1B192932780099673A;
+			remoteInfo = "Open in Chrome";
+		};
+		BE312E961A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4823E2E192936150099673A;
+			remoteInfo = "Open in 1Password";
+		};
+		BE312E981A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B15457192E077E0080EBE3;
+			remoteInfo = "Reading List";
+		};
+		BE312E9A1A5EF83300B87054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A5340CA1A1F3B6100659425;
+			remoteInfo = "iso-8601-date-formatter";
 		};
 		BECED370167E9E6000F97959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -266,13 +322,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 7A0F9246156BA2A0009CB40A;
 			remoteInfo = "Static Library Core";
-		};
-		BECED376167E9E6000F97959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A1AFCAE160E11810086B98A;
-			remoteInfo = JSONKit;
 		};
 		BECED378167E9E6000F97959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -407,20 +456,6 @@
 			remoteGlobalIDString = AABBED50162F0BA7009D46E4;
 			remoteInfo = Flickr;
 		};
-		BECED39E167E9E6000F97959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A1AFD24160E13740086B98A;
-			remoteInfo = "Flickr SDK";
-		};
-		BECED3A0167E9E6000F97959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AABBED59162F0BC5009D46E4;
-			remoteInfo = "Google Reader";
-		};
 		BECED3A2167E9E6000F97959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
@@ -448,13 +483,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = AABBED74162F0C1A009D46E4;
 			remoteInfo = Pinboard;
-		};
-		BECED3AA167E9E6000F97959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AABBED7D162F0C33009D46E4;
-			remoteInfo = "Read It Later";
 		};
 		BECED3AC167E9E6000F97959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -531,11 +559,11 @@
 		BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdgyFree-Info.plist"; sourceTree = "<group>"; };
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
+		BE312E431A5EF83300B87054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
 		BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
 		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
-		BE6DEA6A167ED37400F5BBD2 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
@@ -675,6 +703,7 @@
 				21C1C6221377B590006E5619 /* CoreMedia.framework in Frameworks */,
 				21C1C6231377B590006E5619 /* QuartzCore.framework in Frameworks */,
 				21C1C6241377B590006E5619 /* AVFoundation.framework in Frameworks */,
+				BE312E441A5EF83300B87054 /* CoreMotion.framework in Frameworks */,
 				21C1C6251377B590006E5619 /* CoreVideo.framework in Frameworks */,
 				21C1C6261377B590006E5619 /* Accelerate.framework in Frameworks */,
 				21C1C6271377B590006E5619 /* MessageUI.framework in Frameworks */,
@@ -694,37 +723,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6DEA4E167ED37400F5BBD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6DEA4F167ED37400F5BBD2 /* libOpenCV.a in Frameworks */,
-				BE6DEA50167ED37400F5BBD2 /* libShareKit.a in Frameworks */,
-				BE6DEA51167ED37400F5BBD2 /* Foundation.framework in Frameworks */,
-				BE6DEA52167ED37400F5BBD2 /* CoreGraphics.framework in Frameworks */,
-				BE6DEA53167ED37400F5BBD2 /* UIKit.framework in Frameworks */,
-				BE6DEA54167ED37400F5BBD2 /* CoreMedia.framework in Frameworks */,
-				BE6DEA55167ED37400F5BBD2 /* QuartzCore.framework in Frameworks */,
-				BE6DEA56167ED37400F5BBD2 /* AVFoundation.framework in Frameworks */,
-				BE6DEA57167ED37400F5BBD2 /* CoreVideo.framework in Frameworks */,
-				BE6DEA58167ED37400F5BBD2 /* Accelerate.framework in Frameworks */,
-				BE6DEA59167ED37400F5BBD2 /* MessageUI.framework in Frameworks */,
-				BE6DEA5A167ED37400F5BBD2 /* MobileCoreServices.framework in Frameworks */,
-				BE6DEA5B167ED37400F5BBD2 /* libz.dylib in Frameworks */,
-				BE6DEA5C167ED37400F5BBD2 /* Security.framework in Frameworks */,
-				BE6DEA5D167ED37400F5BBD2 /* SystemConfiguration.framework in Frameworks */,
-				BE6DEA5E167ED37400F5BBD2 /* iAd.framework in Frameworks */,
-				BE6DEA5F167ED37400F5BBD2 /* CoreLocation.framework in Frameworks */,
-				BE6DEA60167ED37400F5BBD2 /* libsqlite3.dylib in Frameworks */,
-				BE6DEA61167ED37400F5BBD2 /* CFNetwork.framework in Frameworks */,
-				BE6DEA62167ED37400F5BBD2 /* Twitter.framework in Frameworks */,
-				BE6DEA63167ED37400F5BBD2 /* CoreFoundation.framework in Frameworks */,
-				BE6DEA64167ED37400F5BBD2 /* AdSupport.framework in Frameworks */,
-				BE6DEA65167ED37400F5BBD2 /* Accounts.framework in Frameworks */,
-				BE6DEA66167ED37400F5BBD2 /* Social.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -733,7 +731,6 @@
 			children = (
 				215AB44112CEC6790047B13F /* libOpenCV.a */,
 				21C1C6301377B590006E5619 /* Edgy.app */,
-				BE6DEA6A167ED37400F5BBD2 /* Edgy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -983,6 +980,7 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				BEF56964167EA2AA00178792 /* Accounts.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				BE312E431A5EF83300B87054 /* CoreMotion.framework */,
 				210BBBE812DAEE920017E026 /* MessageUI.framework */,
 				BEF56966167EA2B100178792 /* Social.framework */,
 				21C1B5BB12DD9FBD00D0604B /* Security.framework */,
@@ -1047,40 +1045,55 @@
 		BECED341167E9E5F00F97959 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BECED36F167E9E6000F97959 /* ShareKitDemo.app */,
 				BECED371167E9E6000F97959 /* libShareKit.a */,
 				BECED373167E9E6000F97959 /* ShareKit.bundle */,
 				BECED375167E9E6000F97959 /* libShareKitCore.a */,
-				BECED377167E9E6000F97959 /* libJSONKit.a */,
 				BECED379167E9E6000F97959 /* libSSKeyChain.a */,
 				BECED37B167E9E6000F97959 /* libOAuth.a */,
 				BECED37D167E9E6000F97959 /* libReachability.a */,
-				BECED37F167E9E6000F97959 /* libPrint.a */,
-				BECED381167E9E6000F97959 /* libLogout.a */,
 				BECED383167E9E6000F97959 /* libCopy.a */,
 				BECED385167E9E6000F97959 /* libEmail.a */,
+				BECED381167E9E6000F97959 /* libLogout.a */,
 				BECED387167E9E6000F97959 /* libOpen in Safari.a */,
+				BECED37F167E9E6000F97959 /* libPrint.a */,
 				BECED389167E9E6000F97959 /* libSave to Album.a */,
 				BECED38B167E9E6000F97959 /* libText Message.a */,
-				BECED38D167E9E6000F97959 /* libKippt.a */,
 				BECED38F167E9E6000F97959 /* libDelicious.a */,
 				BECED391167E9E6000F97959 /* libDiigo.a */,
-				BECED393167E9E6000F97959 /* libVKontakte.a */,
 				BECED395167E9E6000F97959 /* libEvernote.a */,
 				BECED397167E9E6000F97959 /* libEvernote SDK.a */,
 				BECED399167E9E6000F97959 /* libFacebook.a */,
 				BECED39B167E9E6000F97959 /* libFoursquareV2.a */,
 				BECED39D167E9E6000F97959 /* libFlickr.a */,
-				BECED39F167E9E6000F97959 /* libFlickr SDK.a */,
-				BECED3A1167E9E6000F97959 /* libGoogle Reader.a */,
+				BE312E751A5EF83300B87054 /* libGoogle Plus.a */,
 				BECED3A3167E9E6000F97959 /* libInstagram.a */,
 				BECED3A5167E9E6000F97959 /* libInstapaper.a */,
+				BECED38D167E9E6000F97959 /* libKippt.a */,
 				BECED3A7167E9E6000F97959 /* libLinkedIn.a */,
 				BECED3A9167E9E6000F97959 /* libPinboard.a */,
-				BECED3AB167E9E6000F97959 /* libRead It Later.a */,
+				BE312E771A5EF83300B87054 /* libBuffer.a */,
+				BECED3B1167E9E6000F97959 /* libSina Weibo.a */,
 				BECED3AD167E9E6000F97959 /* libTumblr.a */,
 				BECED3AF167E9E6000F97959 /* libTwitter.a */,
-				BECED3B1167E9E6000F97959 /* libSina Weibo.a */,
+				BECED393167E9E6000F97959 /* libVKontakte.a */,
+				BE312E791A5EF83300B87054 /* libReadability.a */,
+				BE312E7B1A5EF83300B87054 /* libHatena.a */,
+				BE312E7D1A5EF83300B87054 /* libPlurk.a */,
+				BE312E7F1A5EF83300B87054 /* libDropbox.a */,
+				BE312E811A5EF83300B87054 /* libYouTube.a */,
+				BE312E831A5EF83300B87054 /* libYouTube SDK.a */,
+				BE312E851A5EF83300B87054 /* libPocket.a */,
+				BE312E871A5EF83300B87054 /* libPocket SDK.a */,
+				BE312E891A5EF83300B87054 /* Static Library Tests.xctest */,
+				BE312E8B1A5EF83300B87054 /* libPKMultipartInputStream.a */,
+				BE312E8D1A5EF83300B87054 /* libImgur.a */,
+				BE312E8F1A5EF83300B87054 /* libOneNote.a */,
+				BE312E911A5EF83300B87054 /* libPinterest.a */,
+				BE312E931A5EF83300B87054 /* libSDWebImage.a */,
+				BE312E951A5EF83300B87054 /* libOpen in Chrome.a */,
+				BE312E971A5EF83300B87054 /* libOpen in 1Password.a */,
+				BE312E991A5EF83300B87054 /* libReadingList.a */,
+				BE312E9B1A5EF83300B87054 /* libiso-8601-date-formatter.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1183,33 +1196,13 @@
 			productReference = 21C1C6301377B590006E5619 /* Edgy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE6DEA24167ED37400F5BBD2 /* EdgyFree */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE6DEA67167ED37400F5BBD2 /* Build configuration list for PBXNativeTarget "EdgyFree" */;
-			buildPhases = (
-				BE6DEA2B167ED37400F5BBD2 /* Resources */,
-				BE6DEA43167ED37400F5BBD2 /* Sources */,
-				BE6DEA4E167ED37400F5BBD2 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE6DEA25167ED37400F5BBD2 /* PBXTargetDependency */,
-				BE6DEA27167ED37400F5BBD2 /* PBXTargetDependency */,
-				BE6DEA29167ED37400F5BBD2 /* PBXTargetDependency */,
-			);
-			name = EdgyFree;
-			productName = Edgy;
-			productReference = BE6DEA6A167ED37400F5BBD2 /* Edgy.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Chris Marcellino";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Edgy" */;
@@ -1243,18 +1236,150 @@
 			projectRoot = "";
 			targets = (
 				21C1C5FE1377B590006E5619 /* Edgy */,
-				BE6DEA24167ED37400F5BBD2 /* EdgyFree */,
 				215AB44012CEC6790047B13F /* OpenCV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BECED36F167E9E6000F97959 /* ShareKitDemo.app */ = {
+		BE312E751A5EF83300B87054 /* libGoogle Plus.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = ShareKitDemo.app;
-			remoteRef = BECED36E167E9E6000F97959 /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = "libGoogle Plus.a";
+			remoteRef = BE312E741A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E771A5EF83300B87054 /* libBuffer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBuffer.a;
+			remoteRef = BE312E761A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E791A5EF83300B87054 /* libReadability.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReadability.a;
+			remoteRef = BE312E781A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E7B1A5EF83300B87054 /* libHatena.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHatena.a;
+			remoteRef = BE312E7A1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E7D1A5EF83300B87054 /* libPlurk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPlurk.a;
+			remoteRef = BE312E7C1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E7F1A5EF83300B87054 /* libDropbox.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDropbox.a;
+			remoteRef = BE312E7E1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E811A5EF83300B87054 /* libYouTube.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYouTube.a;
+			remoteRef = BE312E801A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E831A5EF83300B87054 /* libYouTube SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libYouTube SDK.a";
+			remoteRef = BE312E821A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E851A5EF83300B87054 /* libPocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocket.a;
+			remoteRef = BE312E841A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E871A5EF83300B87054 /* libPocket SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPocket SDK.a";
+			remoteRef = BE312E861A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E891A5EF83300B87054 /* Static Library Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Static Library Tests.xctest";
+			remoteRef = BE312E881A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E8B1A5EF83300B87054 /* libPKMultipartInputStream.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPKMultipartInputStream.a;
+			remoteRef = BE312E8A1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E8D1A5EF83300B87054 /* libImgur.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libImgur.a;
+			remoteRef = BE312E8C1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E8F1A5EF83300B87054 /* libOneNote.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOneNote.a;
+			remoteRef = BE312E8E1A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E911A5EF83300B87054 /* libPinterest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPinterest.a;
+			remoteRef = BE312E901A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E931A5EF83300B87054 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = BE312E921A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E951A5EF83300B87054 /* libOpen in Chrome.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libOpen in Chrome.a";
+			remoteRef = BE312E941A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E971A5EF83300B87054 /* libOpen in 1Password.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libOpen in 1Password.a";
+			remoteRef = BE312E961A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E991A5EF83300B87054 /* libReadingList.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReadingList.a;
+			remoteRef = BE312E981A5EF83300B87054 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE312E9B1A5EF83300B87054 /* libiso-8601-date-formatter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libiso-8601-date-formatter.a";
+			remoteRef = BE312E9A1A5EF83300B87054 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		BECED371167E9E6000F97959 /* libShareKit.a */ = {
@@ -1276,13 +1401,6 @@
 			fileType = archive.ar;
 			path = libShareKitCore.a;
 			remoteRef = BECED374167E9E6000F97959 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BECED377167E9E6000F97959 /* libJSONKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libJSONKit.a;
-			remoteRef = BECED376167E9E6000F97959 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		BECED379167E9E6000F97959 /* libSSKeyChain.a */ = {
@@ -1418,20 +1536,6 @@
 			remoteRef = BECED39C167E9E6000F97959 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BECED39F167E9E6000F97959 /* libFlickr SDK.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libFlickr SDK.a";
-			remoteRef = BECED39E167E9E6000F97959 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BECED3A1167E9E6000F97959 /* libGoogle Reader.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libGoogle Reader.a";
-			remoteRef = BECED3A0167E9E6000F97959 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		BECED3A3167E9E6000F97959 /* libInstagram.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1458,13 +1562,6 @@
 			fileType = archive.ar;
 			path = libPinboard.a;
 			remoteRef = BECED3A8167E9E6000F97959 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BECED3AB167E9E6000F97959 /* libRead It Later.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRead It Later.a";
-			remoteRef = BECED3AA167E9E6000F97959 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		BECED3AD167E9E6000F97959 /* libTumblr.a */ = {
@@ -1518,36 +1615,6 @@
 				BE1B760C167EB37200B7CB60 /* ShareKit.bundle in Resources */,
 				BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */,
 				BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6DEA2B167ED37400F5BBD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6DEA2C167ED37400F5BBD2 /* camera_dslr_small.png in Resources */,
-				BE6DEA2D167ED37400F5BBD2 /* colors_small.png in Resources */,
-				BE6DEA2E167ED37400F5BBD2 /* Localizable.strings in Resources */,
-				BE6DEA2F167ED37400F5BBD2 /* Default-568h@2x.png in Resources */,
-				BE6DEA30167ED37400F5BBD2 /* Default.png in Resources */,
-				BE6DEA31167ED37400F5BBD2 /* Default@2x.png in Resources */,
-				BE6DEA32167ED37400F5BBD2 /* Localizable.strings in Resources */,
-				BE6DEA33167ED37400F5BBD2 /* Localizable.strings in Resources */,
-				BE6DEA34167ED37400F5BBD2 /* Localizable.strings in Resources */,
-				BE6DEA35167ED37400F5BBD2 /* Icon-50.png in Resources */,
-				BE6DEA36167ED37400F5BBD2 /* Icon-57.png in Resources */,
-				BE6DEA37167ED37400F5BBD2 /* Icon-72.png in Resources */,
-				BE6DEA38167ED37400F5BBD2 /* Icon-114.png in Resources */,
-				BE6DEA39167ED37400F5BBD2 /* Icon-512.png in Resources */,
-				BE6DEA3A167ED37400F5BBD2 /* Icon-Small.png in Resources */,
-				BE6DEA3B167ED37400F5BBD2 /* Localizable.strings in Resources */,
-				BE6DEA3C167ED37400F5BBD2 /* legal.txt in Resources */,
-				BE6DEA3D167ED37400F5BBD2 /* lightbulb_small_selected.png in Resources */,
-				BE6DEA3E167ED37400F5BBD2 /* lightbulb_small.png in Resources */,
-				BE6DEA3F167ED37400F5BBD2 /* reload_small.png in Resources */,
-				BE6DEA40167ED37400F5BBD2 /* ShareKit.bundle in Resources */,
-				BE6DEA41167ED37400F5BBD2 /* Default-Portrait.png in Resources */,
-				BE6DEA42167ED37400F5BBD2 /* Default-Portrait@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1641,23 +1708,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6DEA43167ED37400F5BBD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6DEA44167ED37400F5BBD2 /* Edgy-main.m in Sources */,
-				BE6DEA45167ED37400F5BBD2 /* Binarization.cpp in Sources */,
-				BE6DEA46167ED37400F5BBD2 /* Bvh.cpp in Sources */,
-				BE6DEA47167ED37400F5BBD2 /* EGCaptureController.mm in Sources */,
-				BE6DEA48167ED37400F5BBD2 /* EGEdgyAppDelegate.m in Sources */,
-				BE6DEA49167ED37400F5BBD2 /* EGEdgyView.m in Sources */,
-				BE6DEA4A167ED37400F5BBD2 /* ImageOrientationAccelerometer.mm in Sources */,
-				BE6DEA4B167ED37400F5BBD2 /* UIImage-OpenCVExtensions.mm in Sources */,
-				BE6DEA4C167ED37400F5BBD2 /* EdgySHKConfigurator.m in Sources */,
-				BE6DEA4D167ED37400F5BBD2 /* EGSHKActionSheet.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1665,21 +1715,6 @@
 			isa = PBXTargetDependency;
 			target = 215AB44012CEC6790047B13F /* OpenCV */;
 			targetProxy = 21C1C6001377B590006E5619 /* PBXContainerItemProxy */;
-		};
-		BE6DEA25167ED37400F5BBD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Static Library";
-			targetProxy = BE6DEA26167ED37400F5BBD2 /* PBXContainerItemProxy */;
-		};
-		BE6DEA27167ED37400F5BBD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Resource Bundle";
-			targetProxy = BE6DEA28167ED37400F5BBD2 /* PBXContainerItemProxy */;
-		};
-		BE6DEA29167ED37400F5BBD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 215AB44012CEC6790047B13F /* OpenCV */;
-			targetProxy = BE6DEA2A167ED37400F5BBD2 /* PBXContainerItemProxy */;
 		};
 		BEF5693F167EA04E00178792 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1767,9 +1802,12 @@
 		21C1C62E1377B590006E5619 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=0";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1789,54 +1827,13 @@
 		21C1C62F1377B590006E5619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=0";
 				INFOPLIST_FILE = "Resources/Edgy-Info.plist";
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
-				PRODUCT_NAME = Edgy;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-					"-Wno-unused-value",
-					"-Wno-overloaded-virtual",
-				);
-			};
-			name = Release;
-		};
-		BE6DEA68167ED37400F5BBD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
-				INFOPLIST_FILE = "Resources/EdgyFree-Info.plist";
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
-				PRODUCT_NAME = Edgy;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-					"-Wno-unused-value",
-					"-Wno-overloaded-virtual",
-				);
-			};
-			name = Debug;
-		};
-		BE6DEA69167ED37400F5BBD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Edgy_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE_VERSION=1";
-				INFOPLIST_FILE = "Resources/EdgyFree-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1855,16 +1852,14 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1875,17 +1870,13 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = YES;
@@ -1912,15 +1903,6 @@
 			buildConfigurations = (
 				21C1C62E1377B590006E5619 /* Debug */,
 				21C1C62F1377B590006E5619 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE6DEA67167ED37400F5BBD2 /* Build configuration list for PBXNativeTarget "EdgyFree" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE6DEA68167ED37400F5BBD2 /* Debug */,
-				BE6DEA69167ED37400F5BBD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

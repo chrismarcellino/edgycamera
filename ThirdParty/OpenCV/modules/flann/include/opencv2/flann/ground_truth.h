@@ -73,7 +73,7 @@ void find_nearest(const Matrix<T>& dataset, T* query, int* matches, int nn, int 
     }
 
     for (int i=0;i<nn;++i) {
-        matches[i] = match[i+skip];
+        matches[i] = (int)match[i+skip];
     }
 
     delete[] match;

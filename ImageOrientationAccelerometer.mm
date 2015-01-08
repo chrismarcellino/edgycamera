@@ -8,6 +8,7 @@
 
 #import "ImageOrientationAccelerometer.h"
 #import <QuartzCore/QuartzCore.h>
+#import <CoreMotion/CoreMotion.h>
 #import "opencv2/opencv.hpp"
 
 NSString *const DeviceOrientationDidChangeNotification = @"DeviceOrientationDidChangeNotification";
@@ -31,9 +32,13 @@ static const float orientationChangeHysteresis = 0.35;
     listeners++;
     
     if (listeners == 1) {
-        UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
-        [accelerometer setDelegate:self];
-        [accelerometer setUpdateInterval:0.1];
+        if (!motionManager) {
+            motionManager = [[CMMotionManager alloc] init];
+        }
+        [motionManager setAccelerometerUpdateInterval:0.1];
+        [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue mainQueue] withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
+            [self accelerometerDataReceived:accelerometerData];
+        }];
         
         // See the orientation from the OS if possible
         UIDevice *currentDevice = [UIDevice currentDevice];
@@ -49,15 +54,14 @@ static const float orientationChangeHysteresis = 0.35;
     listeners--;
     
     if (listeners == 0) {
-        UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
-        [accelerometer setDelegate:nil];
-        [accelerometer setUpdateInterval:0.0];
+        [motionManager setAccelerometerUpdateInterval:0.0];
     }
 }
 
-- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+- (void)accelerometerDataReceived:(CMAccelerometerData *)accelerometerData
 {
-    cv::Point3f accel([acceleration x], [acceleration y], [acceleration z]);
+    CMAcceleration acceleration = [accelerometerData acceleration];
+    cv::Point3f accel(acceleration.x, acceleration.y, acceleration.z);
     
     // Bail if the acceleration magnitude is supernormal
     if (accel.dot(accel) > 1.2 * 1.2) {

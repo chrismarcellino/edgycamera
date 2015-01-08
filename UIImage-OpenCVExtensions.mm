@@ -22,8 +22,8 @@ static void releaseImage(void *info, const void *data, size_t size);
     BOOL drawTransposed;
     CGAffineTransform transform = [self transformForOrientationDrawnTransposed:&drawTransposed];
     
-    CvSize cvsize = cvSize(drawTransposed ? CGImageGetHeight(cgImage) : CGImageGetWidth(cgImage),
-                           drawTransposed ? CGImageGetWidth(cgImage) : CGImageGetHeight(cgImage));
+    CvSize cvsize = cvSize(drawTransposed ? (int)CGImageGetHeight(cgImage) : (int)CGImageGetWidth(cgImage),
+                           drawTransposed ? (int)CGImageGetWidth(cgImage) : (int)CGImageGetHeight(cgImage));
     IplImage *iplImage = cvCreateImage(cvsize, IPL_DEPTH_8U, (channels == 3) ? 4 : channels);       // CG can only write into 4 byte aligned bitmaps
     
     CGBitmapInfo bitmapInfo = kCGImageAlphaNone;

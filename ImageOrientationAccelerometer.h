@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class CMMotionManager;
 
-@interface ImageOrientationAccelerometer : NSObject <UIAccelerometerDelegate> {
+@interface ImageOrientationAccelerometer : NSObject {
+    CMMotionManager *motionManager;
     UIDeviceOrientation deviceOrientation;
     UIDeviceOrientation pendingDeviceOrientation;
     CFAbsoluteTime pendingTime;

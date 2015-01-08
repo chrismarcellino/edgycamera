@@ -59,11 +59,9 @@ static const CGFloat buttonAlpha = 0.8;
         
         [self setControlAlpha:0.0];
         
-#if FREE_VERSION
         bannerView = [[ADBannerView alloc] initWithAdType:ADAdTypeBanner];
         [bannerView setHidden:YES];
         [self addSubview:bannerView];
-#endif
     }
     return self;
 }
@@ -95,11 +93,9 @@ static const CGFloat buttonAlpha = 0.8;
     CGRect sliderFrame = CGRectMake(bounds.size.width / 4, bounds.size.height - 35.0 - yOffset, bounds.size.width / 2, 30.0);
     [cannyThresholdSlider setFrame:sliderFrame];
 
-#if FREE_VERSION
     CGRect bannerFrame = [bannerView frame];
     bannerFrame.origin = CGPointMake(0.0, bounds.size.height - bannerFrame.size.height);
     [bannerView setFrame:bannerFrame];
-#endif
 }
 
 - (void)setControlAlpha:(CGFloat)alpha

@@ -294,7 +294,7 @@ static inline uchar bgr2Gray(uchar bgr[3])
 static int median(std::vector<int> values)
 {
     std::sort(values.begin(), values.end());
-    int middle = values.size() / 2;
+    int middle = (int)(values.size() / 2);
     return (values.size() % 2) ? values[middle] : (values[middle - 1] + values[middle] + 1) / 2;
 }
 

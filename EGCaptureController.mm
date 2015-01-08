@@ -109,9 +109,7 @@
     [[view cameraToggle] addTarget:self action:@selector(cameraToggled:) forControlEvents:UIControlEventTouchUpInside];
     [[view colorToggle] addTarget:self action:@selector(colorToggled:) forControlEvents:UIControlEventTouchUpInside];
     [[view cannyThresholdSlider] addTarget:self action:@selector(thresholdChanged:) forControlEvents:UIControlEventValueChanged];
-#if FREE_VERSION
     [[view bannerView] setDelegate:self];
-#endif
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -431,7 +429,6 @@
 }
 #endif
 
-#if FREE_VERSION
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
     [banner setHidden:NO];
@@ -459,6 +456,5 @@
 {
     pauseForCapture = NO;
 }
-#endif
 
 @end
