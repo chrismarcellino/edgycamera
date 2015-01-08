@@ -210,12 +210,9 @@
         [currentDevice setTorchMode:torchOn ? AVCaptureTorchModeOn : AVCaptureTorchModeOff];
         [[view torchButton] setSelected:torchOn];
     }
-    [currentDevice unlockForConfiguration];
-    
     // Limit the frame rate
-    for (AVCaptureConnection *connection in [captureVideoDataOuput connections]) {
-        [connection setVideoMinFrameDuration:CMTimeMake(1, 10)];  // 10 fps max
-    }
+    [currentDevice setActiveVideoMinFrameDuration:CMTimeMake(1, 10)];  // 10 fps max
+    [currentDevice unlockForConfiguration];
     
     // Ensure the image view is rotated properly
     BOOL front = [currentDevice position] == AVCaptureDevicePositionFront;
@@ -363,12 +360,12 @@
     size_t bytesPerRow = fallBackToBGRA32Sampling ? CVPixelBufferGetBytesPerRow(imageBuffer) : CVPixelBufferGetBytesPerRowOfPlane(imageBuffer, 0);
     size_t width = fallBackToBGRA32Sampling ? CVPixelBufferGetWidth(imageBuffer) : CVPixelBufferGetWidthOfPlane(imageBuffer, 0);
     size_t height = fallBackToBGRA32Sampling ? CVPixelBufferGetHeight(imageBuffer) : CVPixelBufferGetHeightOfPlane(imageBuffer, 0);
-    CvSize size = cvSize(width, height);
+    CvSize size = cvSize((int)width, (int)height);
     
     // Create an image header to hold the data. Vector copy the data since the image buffer has very slow random access performance.
     IplImage *grayscaleImage = cvCreateImageHeader(size, IPL_DEPTH_8U, fallBackToBGRA32Sampling ? 4 : 1);
-    grayscaleImage->widthStep = bytesPerRow;
-    grayscaleImage->imageSize = bytesPerRow * height;
+    grayscaleImage->widthStep = (int)bytesPerRow;
+    grayscaleImage->imageSize = (int)(bytesPerRow * height);
     cvCreateData(grayscaleImage);
     memcpy(grayscaleImage->imageData, baseAddress, height * bytesPerRow);
     CVPixelBufferUnlockBaseAddress(imageBuffer, 0);

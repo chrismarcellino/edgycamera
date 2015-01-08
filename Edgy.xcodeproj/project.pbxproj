@@ -42,17 +42,12 @@
 		BE1B760B167EB36400B7CB60 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
 		BE312E441A5EF83300B87054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE312E431A5EF83300B87054 /* CoreMotion.framework */; };
-		BE4B57F11A5F0B8800B628D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4B57F01A5F0B8800B628D0 /* Default.png */; };
+		BE4B57F11A5F0B8800B628D0 /* LaunchScreenImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4B57F01A5F0B8800B628D0 /* LaunchScreenImage.png */; };
+		BE4B58221A5F0EC700B628D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4B58211A5F0EC700B628D0 /* Images.xcassets */; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
 		BECED120167E8D0700F97959 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
-		BECED124167E8D0700F97959 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED107167E8D0700F97959 /* Default@2x.png */; };
+		BECED124167E8D0700F97959 /* LaunchScreenImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED107167E8D0700F97959 /* LaunchScreenImage@2x.png */; };
 		BECED126167E8D0700F97959 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10A167E8D0700F97959 /* Localizable.strings */; };
-		BECED129167E8D0700F97959 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED112167E8D0700F97959 /* Icon-50.png */; };
-		BECED12A167E8D0700F97959 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED113167E8D0700F97959 /* Icon-57.png */; };
-		BECED12B167E8D0700F97959 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED114167E8D0700F97959 /* Icon-72.png */; };
-		BECED12C167E8D0700F97959 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED115167E8D0700F97959 /* Icon-114.png */; };
-		BECED12D167E8D0700F97959 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED116167E8D0700F97959 /* Icon-512.png */; };
-		BECED12E167E8D0700F97959 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED117167E8D0700F97959 /* Icon-Small.png */; };
 		BECED130167E8D0700F97959 /* legal.txt in Resources */ = {isa = PBXBuildFile; fileRef = BECED11B167E8D0700F97959 /* legal.txt */; };
 		BECED131167E8D0700F97959 /* lightbulb_small_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */; };
 		BECED132167E8D0700F97959 /* lightbulb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED11D167E8D0700F97959 /* lightbulb_small.png */; };
@@ -564,25 +559,19 @@
 		21C1C6331377B6CF006E5619 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		21FA802612CD6D1600D11B6D /* config_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = ThirdParty/config_auto.h; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdgyFree-Info.plist"; sourceTree = "<group>"; };
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
 		BE312E431A5EF83300B87054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		BE4B57F01A5F0B8800B628D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE4B57F01A5F0B8800B628D0 /* LaunchScreenImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenImage.png; sourceTree = "<group>"; };
+		BE4B58211A5F0EC700B628D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Edgy/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
-		BECED107167E8D0700F97959 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BECED107167E8D0700F97959 /* LaunchScreenImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage@2x.png"; sourceTree = "<group>"; };
 		BECED108167E8D0700F97959 /* Edgy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Edgy-Info.plist"; sourceTree = "<group>"; };
 		BECED10B167E8D0700F97959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		BECED10E167E8D0700F97959 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		BECED111167E8D0700F97959 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
-		BECED112167E8D0700F97959 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
-		BECED113167E8D0700F97959 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		BECED114167E8D0700F97959 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		BECED115167E8D0700F97959 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
-		BECED116167E8D0700F97959 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
-		BECED117167E8D0700F97959 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		BECED11A167E8D0700F97959 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
 		BECED11B167E8D0700F97959 /* legal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = legal.txt; sourceTree = "<group>"; };
 		BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb_small_selected.png; sourceTree = "<group>"; };
@@ -945,23 +934,17 @@
 		2161366312CD7BFD006687D3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B58211A5F0EC700B628D0 /* Images.xcassets */,
 				BECED100167E8D0700F97959 /* camera_dslr_small.png */,
 				BECED101167E8D0700F97959 /* colors_small.png */,
 				BECED102167E8D0700F97959 /* de.lproj */,
 				BED4075E1A5F094F00A7321D /* LaunchScreen.xib */,
-				BE4B57F01A5F0B8800B628D0 /* Default.png */,
-				BECED107167E8D0700F97959 /* Default@2x.png */,
+				BE4B57F01A5F0B8800B628D0 /* LaunchScreenImage.png */,
+				BECED107167E8D0700F97959 /* LaunchScreenImage@2x.png */,
 				BECED108167E8D0700F97959 /* Edgy-Info.plist */,
-				BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */,
 				BECED109167E8D0700F97959 /* en.lproj */,
 				BECED10C167E8D0700F97959 /* es.lproj */,
 				BECED10F167E8D0700F97959 /* fr.lproj */,
-				BECED112167E8D0700F97959 /* Icon-50.png */,
-				BECED113167E8D0700F97959 /* Icon-57.png */,
-				BECED114167E8D0700F97959 /* Icon-72.png */,
-				BECED115167E8D0700F97959 /* Icon-114.png */,
-				BECED116167E8D0700F97959 /* Icon-512.png */,
-				BECED117167E8D0700F97959 /* Icon-Small.png */,
 				BECED118167E8D0700F97959 /* ja.lproj */,
 				BECED11B167E8D0700F97959 /* legal.txt */,
 				BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */,
@@ -1656,18 +1639,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */,
+				BE4B58221A5F0EC700B628D0 /* Images.xcassets in Resources */,
 				BECED120167E8D0700F97959 /* colors_small.png in Resources */,
 				BED4074A1A5F021400A7321D /* PinterestSDKResources.bundle in Resources */,
-				BECED124167E8D0700F97959 /* Default@2x.png in Resources */,
+				BECED124167E8D0700F97959 /* LaunchScreenImage@2x.png in Resources */,
 				BECED126167E8D0700F97959 /* Localizable.strings in Resources */,
 				BED407461A5F021400A7321D /* GooglePlus.bundle in Resources */,
-				BECED129167E8D0700F97959 /* Icon-50.png in Resources */,
-				BECED12A167E8D0700F97959 /* Icon-57.png in Resources */,
-				BECED12B167E8D0700F97959 /* Icon-72.png in Resources */,
-				BECED12C167E8D0700F97959 /* Icon-114.png in Resources */,
-				BECED12D167E8D0700F97959 /* Icon-512.png in Resources */,
-				BE4B57F11A5F0B8800B628D0 /* Default.png in Resources */,
-				BECED12E167E8D0700F97959 /* Icon-Small.png in Resources */,
+				BE4B57F11A5F0B8800B628D0 /* LaunchScreenImage.png in Resources */,
 				BECED130167E8D0700F97959 /* legal.txt in Resources */,
 				BECED131167E8D0700F97959 /* lightbulb_small_selected.png in Resources */,
 				BECED132167E8D0700F97959 /* lightbulb_small.png in Resources */,
@@ -1861,6 +1839,8 @@
 		21C1C62E1377B590006E5619 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks",
@@ -1887,6 +1867,8 @@
 		21C1C62F1377B590006E5619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks",
@@ -1913,13 +1895,14 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1931,13 +1914,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = YES;
