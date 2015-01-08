@@ -57,6 +57,7 @@ void BvhNode::insert(const CvRect& newRect, bool skipContainedRects)
         rect = newBoundingBox;
         
         if (ifLeftDifference < ifRightDifference && ifLeftDifference < perimeter / 8) {
+            assert(left);       // silence spurious clang warning 1/8/2015
             left->insert(newRect, skipContainedRects);
         } else if (ifRightDifference < perimeter / 8) {
             right->insert(newRect, skipContainedRects);

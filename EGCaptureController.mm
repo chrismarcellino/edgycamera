@@ -9,7 +9,7 @@
 #import "EGCaptureController.h"
 #import <AVFoundation/AVFoundation.h>
 #import <QuartzCore/QuartzCore.h>
-#import "SHK.h"
+#import "ShareKit.h"
 #import "opencv2/opencv.hpp"
 #import "EGEdgyView.h"
 #import "UIImage-OpenCVExtensions.h"
@@ -77,7 +77,6 @@
         
         [session addOutput:captureVideoDataOuput];
 #endif
-        [self setWantsFullScreenLayout:YES];
         [self setDefaultSettings];
     }
     return self;
@@ -113,7 +112,9 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated
-{    
+{
+    [super viewWillAppear:animated];
+    
     // Monitor for orientation updates
     [[ImageOrientationAccelerometer sharedInstance] beginGeneratingDeviceOrientationNotifications];
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
@@ -133,6 +134,8 @@
 
 - (void)viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
+    
     [self stopRunning];
     
     [[ImageOrientationAccelerometer sharedInstance] endGeneratingDeviceOrientationNotifications];
