@@ -42,7 +42,6 @@
 		BE1B760B167EB36400B7CB60 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
 		BE312E441A5EF83300B87054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE312E431A5EF83300B87054 /* CoreMotion.framework */; };
-		BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */; };
 		BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
 		BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
@@ -77,6 +76,7 @@
 		BED407541A5F039600A7321D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED407531A5F039600A7321D /* MediaPlayer.framework */; };
 		BED407561A5F039B00A7321D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED407551A5F039B00A7321D /* StoreKit.framework */; };
 		BED407581A5F03AF00A7321D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED407571A5F03AF00A7321D /* AssetsLibrary.framework */; };
+		BED4075B1A5F062700A7321D /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BED4075A1A5F062700A7321D /* EGSHKActionSheet.m */; };
 		BEF56951167EA15E00178792 /* Binarization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56944167EA15E00178792 /* Binarization.cpp */; };
 		BEF56952167EA15E00178792 /* Bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56946167EA15E00178792 /* Bvh.cpp */; };
 		BEF56953167EA15E00178792 /* EGCaptureController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694A167EA15E00178792 /* EGCaptureController.mm */; };
@@ -570,8 +570,6 @@
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
 		BE312E431A5EF83300B87054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
-		BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
 		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
@@ -611,6 +609,8 @@
 		BED407531A5F039600A7321D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		BED407551A5F039B00A7321D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BED407571A5F03AF00A7321D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BED407591A5F062700A7321D /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
+		BED4075A1A5F062700A7321D /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
 		BEF56944167EA15E00178792 /* Binarization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Binarization.cpp; sourceTree = "<group>"; };
 		BEF56945167EA15E00178792 /* Binarization.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Binarization.hpp; sourceTree = "<group>"; };
 		BEF56946167EA15E00178792 /* Bvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bvh.cpp; sourceTree = "<group>"; };
@@ -1179,8 +1179,8 @@
 				BEF56948167EA15E00178792 /* CvRectUtilities.hpp */,
 				BEF56949167EA15E00178792 /* EGCaptureController.h */,
 				BEF5694A167EA15E00178792 /* EGCaptureController.mm */,
-				BE6DE9D2167EC03F00F5BBD2 /* EGSHKActionSheet.h */,
-				BE6DE9D3167EC03F00F5BBD2 /* EGSHKActionSheet.m */,
+				BED407591A5F062700A7321D /* EGSHKActionSheet.h */,
+				BED4075A1A5F062700A7321D /* EGSHKActionSheet.m */,
 				BEF5694D167EA15E00178792 /* EGEdgyView.h */,
 				BEF5694E167EA15E00178792 /* EGEdgyView.m */,
 				BEF5694F167EA15E00178792 /* ImageOrientationAccelerometer.h */,
@@ -1768,10 +1768,10 @@
 				BEF56953167EA15E00178792 /* EGCaptureController.mm in Sources */,
 				BEF56954167EA15E00178792 /* EGEdgyAppDelegate.m in Sources */,
 				BEF56955167EA15E00178792 /* EGEdgyView.m in Sources */,
+				BED4075B1A5F062700A7321D /* EGSHKActionSheet.m in Sources */,
 				BEF56956167EA15E00178792 /* ImageOrientationAccelerometer.mm in Sources */,
 				BEF56959167EA16800178792 /* UIImage-OpenCVExtensions.mm in Sources */,
 				BE1B760A167EB05700B7CB60 /* EdgySHKConfigurator.m in Sources */,
-				BE6DE9D4167EC03F00F5BBD2 /* EGSHKActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -319,7 +319,7 @@
 	SHKItem *item = [SHKItem image:image title:title];
     
 	// Get the ShareKit action sheet and display it. Use our subclass so we can know when it gets dismissed.
-	EGSHKActionSheet *actionSheet = (EGSHKActionSheet *)[SHKActionSheet actionSheetForItem:item];
+	EGSHKActionSheet *actionSheet = [EGSHKActionSheet actionSheetForItem:item];
     [actionSheet setTitle:nil];
     [actionSheet setEGDismissHandler:^{
         pauseForCapture = NO;
