@@ -585,7 +585,7 @@
 		BECED11C167E8D0700F97959 /* lightbulb_small_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb_small_selected.png; sourceTree = "<group>"; };
 		BECED11D167E8D0700F97959 /* lightbulb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb_small.png; sourceTree = "<group>"; };
 		BECED11E167E8D0700F97959 /* reload_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_small.png; sourceTree = "<group>"; };
-		BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShareKit.xcodeproj; path = ThirdParty/ShareKit/ShareKit.xcodeproj; sourceTree = "<group>"; };
+		BECED340167E9E5F00F97959 /* ShareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShareKit.xcodeproj; path = Submodules/ShareKit/ShareKit.xcodeproj; sourceTree = "<group>"; };
 		BEF56944167EA15E00178792 /* Binarization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Binarization.cpp; sourceTree = "<group>"; };
 		BEF56945167EA15E00178792 /* Binarization.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Binarization.hpp; sourceTree = "<group>"; };
 		BEF56946167EA15E00178792 /* Bvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bvh.cpp; sourceTree = "<group>"; };
@@ -1863,7 +1863,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include ThirdParty/ShareKit/**";
+				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include Submodules/ShareKit/**";
 			};
 			name = Debug;
 		};
@@ -1881,7 +1881,7 @@
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include ThirdParty/ShareKit/**";
+				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include Submodules/ShareKit/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
