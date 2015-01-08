@@ -27,7 +27,7 @@
     [application setStatusBarHidden:YES];
     
     // Create the window and main view controller
-    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [window setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
     
     captureController = [[EGCaptureController alloc] initWithNibName:nil bundle:nil];
