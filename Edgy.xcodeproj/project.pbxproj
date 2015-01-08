@@ -42,12 +42,9 @@
 		BE1B760B167EB36400B7CB60 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECED371167E9E6000F97959 /* libShareKit.a */; };
 		BE1B760D167EB3DC00B7CB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552F6D12F7DCC70029E0CC /* libsqlite3.dylib */; };
 		BE312E441A5EF83300B87054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE312E431A5EF83300B87054 /* CoreMotion.framework */; };
-		BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */; };
-		BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */; };
+		BE4B57F11A5F0B8800B628D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4B57F01A5F0B8800B628D0 /* Default.png */; };
 		BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED100167E8D0700F97959 /* camera_dslr_small.png */; };
 		BECED120167E8D0700F97959 /* colors_small.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED101167E8D0700F97959 /* colors_small.png */; };
-		BECED122167E8D0700F97959 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED105167E8D0700F97959 /* Default-568h@2x.png */; };
-		BECED123167E8D0700F97959 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED106167E8D0700F97959 /* Default.png */; };
 		BECED124167E8D0700F97959 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED107167E8D0700F97959 /* Default@2x.png */; };
 		BECED126167E8D0700F97959 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECED10A167E8D0700F97959 /* Localizable.strings */; };
 		BECED129167E8D0700F97959 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BECED112167E8D0700F97959 /* Icon-50.png */; };
@@ -77,6 +74,7 @@
 		BED407561A5F039B00A7321D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED407551A5F039B00A7321D /* StoreKit.framework */; };
 		BED407581A5F03AF00A7321D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED407571A5F03AF00A7321D /* AssetsLibrary.framework */; };
 		BED4075B1A5F062700A7321D /* EGSHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BED4075A1A5F062700A7321D /* EGSHKActionSheet.m */; };
+		BED4075F1A5F094F00A7321D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED4075E1A5F094F00A7321D /* LaunchScreen.xib */; };
 		BEF56951167EA15E00178792 /* Binarization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56944167EA15E00178792 /* Binarization.cpp */; };
 		BEF56952167EA15E00178792 /* Bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF56946167EA15E00178792 /* Bvh.cpp */; };
 		BEF56953167EA15E00178792 /* EGCaptureController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF5694A167EA15E00178792 /* EGCaptureController.mm */; };
@@ -570,13 +568,10 @@
 		BE1B7606167EAD4100B7CB60 /* EdgySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgySHKConfigurator.h; sourceTree = "<group>"; };
 		BE1B7607167EAD4100B7CB60 /* EdgySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgySHKConfigurator.m; sourceTree = "<group>"; };
 		BE312E431A5EF83300B87054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
-		BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		BE4B57F01A5F0B8800B628D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BECED100167E8D0700F97959 /* camera_dslr_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_dslr_small.png; sourceTree = "<group>"; };
 		BECED101167E8D0700F97959 /* colors_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors_small.png; sourceTree = "<group>"; };
 		BECED104167E8D0700F97959 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
-		BECED105167E8D0700F97959 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BECED106167E8D0700F97959 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BECED107167E8D0700F97959 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BECED108167E8D0700F97959 /* Edgy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Edgy-Info.plist"; sourceTree = "<group>"; };
 		BECED10B167E8D0700F97959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
@@ -611,6 +606,7 @@
 		BED407571A5F03AF00A7321D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		BED407591A5F062700A7321D /* EGSHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSHKActionSheet.h; sourceTree = "<group>"; };
 		BED4075A1A5F062700A7321D /* EGSHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSHKActionSheet.m; sourceTree = "<group>"; };
+		BED4075E1A5F094F00A7321D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		BEF56944167EA15E00178792 /* Binarization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Binarization.cpp; sourceTree = "<group>"; };
 		BEF56945167EA15E00178792 /* Binarization.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Binarization.hpp; sourceTree = "<group>"; };
 		BEF56946167EA15E00178792 /* Bvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bvh.cpp; sourceTree = "<group>"; };
@@ -952,10 +948,8 @@
 				BECED100167E8D0700F97959 /* camera_dslr_small.png */,
 				BECED101167E8D0700F97959 /* colors_small.png */,
 				BECED102167E8D0700F97959 /* de.lproj */,
-				BECED105167E8D0700F97959 /* Default-568h@2x.png */,
-				BE6DEA1E167EC71F00F5BBD2 /* Default-Portrait.png */,
-				BE6DEA1F167EC71F00F5BBD2 /* Default-Portrait@2x.png */,
-				BECED106167E8D0700F97959 /* Default.png */,
+				BED4075E1A5F094F00A7321D /* LaunchScreen.xib */,
+				BE4B57F01A5F0B8800B628D0 /* Default.png */,
 				BECED107167E8D0700F97959 /* Default@2x.png */,
 				BECED108167E8D0700F97959 /* Edgy-Info.plist */,
 				BE00A5971682AB9A001103AF /* EdgyFree-Info.plist */,
@@ -1664,8 +1658,6 @@
 				BECED11F167E8D0700F97959 /* camera_dslr_small.png in Resources */,
 				BECED120167E8D0700F97959 /* colors_small.png in Resources */,
 				BED4074A1A5F021400A7321D /* PinterestSDKResources.bundle in Resources */,
-				BECED122167E8D0700F97959 /* Default-568h@2x.png in Resources */,
-				BECED123167E8D0700F97959 /* Default.png in Resources */,
 				BECED124167E8D0700F97959 /* Default@2x.png in Resources */,
 				BECED126167E8D0700F97959 /* Localizable.strings in Resources */,
 				BED407461A5F021400A7321D /* GooglePlus.bundle in Resources */,
@@ -1674,13 +1666,13 @@
 				BECED12B167E8D0700F97959 /* Icon-72.png in Resources */,
 				BECED12C167E8D0700F97959 /* Icon-114.png in Resources */,
 				BECED12D167E8D0700F97959 /* Icon-512.png in Resources */,
+				BE4B57F11A5F0B8800B628D0 /* Default.png in Resources */,
 				BECED12E167E8D0700F97959 /* Icon-Small.png in Resources */,
 				BECED130167E8D0700F97959 /* legal.txt in Resources */,
 				BECED131167E8D0700F97959 /* lightbulb_small_selected.png in Resources */,
 				BECED132167E8D0700F97959 /* lightbulb_small.png in Resources */,
 				BECED133167E8D0700F97959 /* reload_small.png in Resources */,
-				BE6DEA22167EC71F00F5BBD2 /* Default-Portrait.png in Resources */,
-				BE6DEA23167EC71F00F5BBD2 /* Default-Portrait@2x.png in Resources */,
+				BED4075F1A5F094F00A7321D /* LaunchScreen.xib in Resources */,
 				BED407381A5F01AC00A7321D /* ShareKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1927,7 +1919,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1945,7 +1937,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = YES;
