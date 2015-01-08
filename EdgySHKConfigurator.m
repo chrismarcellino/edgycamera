@@ -76,7 +76,7 @@
 // 
 //    Your CFBundleURLSchemes entry: fb555lite
 - (NSString*)facebookAppId {
-	return @"179677022065671";
+	return @"179677022065671";          // this is the official Edgy app ID. You will need to use your own here.
 }
 
 - (NSString*)facebookLocalAppId {
@@ -139,15 +139,15 @@
 }
 
 - (NSString*)twitterConsumerKey {
-	return @"riRRCZtNUBObyyFyADh8Mw";
+	return @"";
 }
 
 - (NSString*)twitterSecret {
-	return @"qTDJg8uBRKJ6sSKbvD17Xwbqe06iLf74nSVmwNeMc";
+	return @"";
 }
 // You need to set this if using OAuth, see note above (xAuth users can skip it)
 - (NSString*)twitterCallbackUrl {
-	return @"http://edgy-callback-url.edgy.levelview.com/";
+	return @"";
 }
 // To use xAuth, set to 1
 - (NSNumber*)twitterUseXAuth {
